@@ -1,3 +1,6 @@
+# User creates new note in single-page application
+
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -8,3 +11,4 @@ sequenceDiagram
     deactivate server
 
       Note right of browser: The browser adds note to the list, re-renders list on the page and sends new note to server
+```

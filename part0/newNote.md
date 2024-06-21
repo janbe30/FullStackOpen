@@ -1,5 +1,6 @@
-// User creates new note in the page by writing in text field and clicking Submit
+# User creates new note in the page by writing in text field and clicking Submit
 
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -30,3 +31,4 @@ sequenceDiagram
     activate server
     server-->>browser: [{ "content": "New note", "date": "2024-6-1" }, ... ]
     deactivate server
+```

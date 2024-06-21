@@ -1,3 +1,6 @@
+# Single-Page Application Notes page
+
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -21,5 +24,7 @@ sequenceDiagram
     activate server
     server-->>browser: [{ "content": "HTML is easy", "date": "2023-1-1" }, ... ]
     deactivate server
+```
 
-    Note right of browser: The browser executes the callback function that fetches the notes in JSON format and generates the HTML code for the notes
+  
+  
