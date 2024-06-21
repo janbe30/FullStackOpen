@@ -1,4 +1,4 @@
-# User creates new note in the page by writing in text field and clicking Submit
+### User creates new note in the page by writing in text field and clicking Submit
 
 ```mermaid
 sequenceDiagram

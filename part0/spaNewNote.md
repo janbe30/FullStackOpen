@@ -1,4 +1,4 @@
-# User creates new note in single-page application
+### User creates new note in single-page application
 
 ```mermaid
 sequenceDiagram

@@ -1,9 +1,9 @@
-# Single-Page Application Notes page
+### Single-Page Application Notes page
 
 ```mermaid
 sequenceDiagram
     participant browser
-    participant server
+    parti cipant server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
