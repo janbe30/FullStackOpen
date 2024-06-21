@@ -3,7 +3,7 @@
 ```mermaid
 sequenceDiagram
     participant browser
-    parti cipant server
+    participant server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
