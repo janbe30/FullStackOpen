@@ -4,3 +4,5 @@ const Total = (props) => {
         <p>Number of exercises {total}</p>
     )
 }
+
+export default Total;
