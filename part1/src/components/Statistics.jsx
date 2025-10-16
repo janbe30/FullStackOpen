@@ -7,14 +7,16 @@ const Statistics = (props) => {
       {props.total === 0 ? (
         <p> No feedback given yet! </p>
       ) : (
-        <div className="stats">
-          <StatisticLine text="good" value={props.good} />
-          <StatisticLine text="neutral" value={props.neutral} />
-          <StatisticLine text="badd" value={props.bad} />
-          <StatisticLine text="total" value={props.total} />
-          <StatisticLine text="avg" value={props.avg} />
-          <StatisticLine text="positivePct" value={props.positivePct} />
-        </div>
+        <table className="stats">
+          <tbody>
+            <StatisticLine text="good" value={props.good} />
+            <StatisticLine text="neutral" value={props.neutral} />
+            <StatisticLine text="bad" value={props.bad} />
+            <StatisticLine text="total" value={props.total} />
+            <StatisticLine text="average" value={props.avg} />
+            <StatisticLine text="positive" value={props.positivePct} />
+          </tbody>
+        </table>
       )}
     </>
   );

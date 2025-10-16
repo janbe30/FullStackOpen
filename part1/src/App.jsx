@@ -34,13 +34,13 @@ const App = () => {
   const calculateAvg = (good, bad, neutral) => {
     let updatedTotal = good + bad + neutral;
     const avg = (good - bad) / updatedTotal;
-    setAvg(avg);
+    setAvg(avg.toFixed(1));
   };
 
   const calculatePct = (good, bad, neutral) => {
     let updatedTotal = good + bad + neutral;
     const positive = (good / updatedTotal) * 100;
-    setPositivePct(positive);
+    setPositivePct(positive.toFixed(1));
   };
 
   return (
