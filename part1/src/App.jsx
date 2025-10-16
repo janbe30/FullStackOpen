@@ -50,7 +50,14 @@ const App = () => {
         <button onClick={() => handleCount("neutral")}>neutral</button>
         <button onClick={() => handleCount("bad")}>bad</button>
       </div>
-      <Statistics good neutral bad total avg positivePct />
+      <Statistics
+        good={good}
+        neutral={neutral}
+        bad={bad}
+        total={total}
+        avg={avg}
+        positivePct={positivePct}
+      />
     </main>
   );
 };
